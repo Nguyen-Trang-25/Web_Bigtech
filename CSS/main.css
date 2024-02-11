@@ -237,3 +237,41 @@
     letter-spacing: 1px;
     margin-bottom: 60px;
 }
+
+.banner__contact{
+    position: absolute;
+    left: 7rem;
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.linkedin, .twitter, .pinterest, .intargram{
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.linkedin, .twitter, .pinterest{
+    margin-bottom: 30px;
+}
+.banner__contact>div>i{
+    margin-right: 10px;
+    display: inline-block;
+    text-align: start;
+}
+
+.banner__scroll{
+    position: absolute;
+    right: 7rem;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__scroll>img{
+    margin-top: 75px;
+    width: 30px;
+}
+.scroll__content{
+    transform: rotate(-90deg);   
+
+}
