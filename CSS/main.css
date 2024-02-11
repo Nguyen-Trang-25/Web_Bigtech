@@ -199,7 +199,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/All/IMG/banner_bg02.jpg);
+    background-image: url(../IMG/banner_bg02.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
