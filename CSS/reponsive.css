@@ -1,0 +1,115 @@
+/* Extra large devices (large desktops, 1800px and up) */
+@media screen and (min-width: 1800px ) {
+    
+}
+
+/* Extra large devices (large desktops, 1500px and up) */
+@media screen and (max-width: 1799px ) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1499px ) {
+
+
+    /*----Header----*/
+
+    header{
+        padding: 14px 0;
+        font-size: 14px;
+    }
+    .header__container{
+        max-width: 1280px;
+        padding-right: 18px;
+    }
+    #logo{
+        transform: scale(0.75);
+    }  
+    .main__menu{
+        margin-left: 80px;
+    } 
+    .main__menu>li{
+        margin-right: 40px;
+    }
+    .buy{
+        padding-left: 30px;
+    }
+    .header__action>p{
+        margin-left: 30px;
+        height: 20px;
+        width: 2px;
+    }
+    .buy>p{
+        padding: 15px 35px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 1199px ){
+       
+
+    /*----Header----*/
+
+    .header__container{
+        max-width: 1199px;
+        padding: 0 15px 0 0;
+    }
+    .main__menu{
+        margin-left: 40px;
+    }
+    #langue{
+        display: none;
+    }
+    .buy{
+        padding-left: 20px;
+    }
+    .header__action>p{
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 991px ) {
+       
+
+    /*----Header----*/
+    header{
+        padding: 0px 0;
+    }
+    .header__container{
+        max-width: 740px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-right: auto;
+    }
+    .main__menu{
+        display: none;
+    }
+    #langue{
+        display: none;
+    }
+    .header__action>p{
+        display: none;
+    }
+    .mobile__menu{
+        display: unset;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 767px) {
+       
+
+    /*----Header----*/
+
+    .header__container{
+        max-width: 540px;
+    }
+    .buy{
+        display: none;
+    }
+}
+ 
