@@ -122,6 +122,34 @@
     .banner__scroll{
         display: none;
     }
+
+
+    /*----Count down----*/
+
+    .cd__container{
+        max-width: 940px;
+    }
+    .time{
+        padding: 0 25px;
+        column-gap: 70px;
+    }
+
+
+    /*----About---*/
+
+    .about__container{
+        max-width: 940px;
+    }
+    .about__img>img{
+        max-width: 95%;
+    }
+
+
+    /*----Why chose----*/
+
+    .why__container{
+        max-width: 940px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -172,6 +200,56 @@
         letter-spacing: -0.45px;
         line-height: 1.25;
     }
+    
+    
+    /*----Count down----*/
+    
+    .cd__container{
+        max-width: 700px;
+    }
+    .time{
+        column-gap: 30px;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        padding: 0;
+    }
+
+
+    /*----About---*/
+
+    .about__container{
+        flex-direction: column;
+        max-width: 700px;
+    }
+    .about__img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .information{
+        width: 100%;
+    }
+    .img__one{
+        display: none;
+    }
+    .img__two{
+        bottom: 70px;
+    }
+
+
+    /*----Why chose----*/
+
+    .why__content{
+        flex-wrap: wrap;
+    }
+    .why__content>div{
+        width: 50%;
+    }
+    .why__container{
+        max-width: 700px;
+    }
+    .mobile, .lifetime{
+        margin-bottom: 60px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -212,6 +290,39 @@
     .banner__container>img{
         width: 510px;
     }
+
+
+    /*----Count down*/
+
+    .cd__container{
+        max-width: 540px;
+        padding: 35px 25px;
+    }
+    .time{
+        column-gap: 25px;
+    }
+    .time>div{
+        width: 110px;
+        height: 110px;
+    }
+
+
+    /*----About---*/
+
+    .about__container{
+        max-width: 540px;
+    }
+    .img__two{
+        bottom: 50px;
+        right: 100px;
+    }
+
+
+    /*----Why chose----*/
+
+    .why__container{
+        max-width: 540px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and down) */
@@ -251,5 +362,49 @@
     }
     .banner__container>img{
         width: 90vw;
+    }
+
+
+    /*----Count down*/
+
+    .time{
+        column-gap: 25px;
+    }
+    .time>div{
+        width: 110px;
+        height: 110px;
+    }
+
+
+    /*----About---*/
+
+    .img__two{
+        bottom: 35px;
+        right: 12.5vw;
+    }
+
+
+    /*----Why chose----*/
+
+    .why__container{
+        max-width: 440px;
+    }
+    .why__content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .why__content>div{
+        width: 100%;
+    }
+    .why__content p{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .why__content span{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
