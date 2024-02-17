@@ -177,7 +177,7 @@
     .header__action>p{
         display: none;
     }
-    .mobile__menu{
+    .mobile__menu__icon{
         display: unset;
         font-size: 30px;
         margin-left: 40px;

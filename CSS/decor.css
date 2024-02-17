@@ -1,0 +1,133 @@
+/*----Header----*/
+
+header{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.header__container{
+    /* background-color:  #050b15; */
+}
+.main__menu{
+    font-size: 14px;
+}
+.main__menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    
+}
+.main__menu>li>a:hover, .home__list>a:hover,.blog__list>a:hover {
+    color: hsl(192 100% 48%);
+}
+.home{
+    color: hsl(192 100% 48%);
+}
+.home:hover .home__list, .blog:hover .blog__list{
+    opacity: 1;
+    transform: scale(1);
+}
+.home__list, .blog__list{
+    color: #fff;
+    background-color: #0b1d33;
+    line-height: 3;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    opacity: 0;
+    transform: scale(1,0);
+    transform-origin: top center;
+    transition: all 0.3s ease-in-out;
+}
+#langue{
+    font-size: 16px;
+}
+#langue a{
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+#langue>ul{
+    list-style: none;
+    line-height: 1.8;
+    box-sizing: border-box;
+    padding: 10px 45px 10px 15px;
+    border-radius: 5px;
+    background: #0B1D33;
+    visibility: hidden;
+    transform-origin: top center;
+    opacity: 0;
+    transform: perspective(400px) rotateX(-45deg);
+    transition: 0.5s;
+}
+#langue:hover ul{
+    visibility: unset;
+    opacity: 1;
+    transform: perspective(400px) rotateX(0deg);
+}
+#langue>ul>li>a:hover {
+    color: hsl(192 100% 48%);
+}
+.chevron{
+    color:hsl(192 100% 48%);
+    display: block;
+    font-size: 10px;
+}
+.header__action>p{
+    background-color: #464858;
+}
+.buy>p{
+    background-color: #00c4f4;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.buy>p:hover{
+    background-color: #6f42c1;
+}
+
+
+/*--mobile menu--*/
+
+.mobile__menu{
+    background-color: hsl(213 65% 12%);
+    font-size: 14px;
+}
+.mobile__bgr{
+    background-color: #0b1d33;
+    opacity: 0.8;
+}
+.close i{
+    font-size: 20px;
+    color: #00c4f4;
+}
+.menu__baby li{
+    list-style: none;
+}
+.menu__baby>li{
+    list-style: none;
+    border-top: solid 1px rgb(255 255 255 / 10%);
+}
+.chevron__blog>i, .chevron__home>i{
+    background-color: #00c4f4;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 2px;
+}
+.menu__contact{
+    border-top: solid 1px rgb(255 255 255 / 10%);
+}
+.menu__contact a{
+    text-decoration: none;
+}
+.menu__contact li i{
+    border: 1px solid rgb(255 255 255 / 10%);
+    color: #fff;
+    border-radius: 3px;
+}
+.fb:hover, .twt:hover, .in:hover, .lkn:hover, .ytb:hover{
+    background-color: #00c4f4;
+    -webkit-border-radius: 3px;
+}
+
+
