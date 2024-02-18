@@ -1,3 +1,29 @@
+/*----Preloading----*/
+
+#preloading{
+    background-color: #030B15;
+    animation: preloading 2s cubic-bezier(0.46,-0.79, 0.49, 2.12);
+}
+.spinner > div {
+    background-color: #00c2f2; 
+    animation-timing-function: ease-in-out;     
+}
+.rec1{
+    animation: scaling 0.4s;
+}
+.rec2{
+    animation: scaling 0.4s 0.1s;
+}
+.rec3{
+    animation: scaling 0.4s 0.2s;
+}
+.rec4{
+    animation: scaling 0.4s 0.3s;
+}
+.rec5{
+    animation: scaling 0.4s 0.4s;
+}
+
 /*----Header----*/
 
 header{
@@ -68,7 +94,7 @@ header{
 #langue>ul>li>a:hover {
     color: hsl(192 100% 48%);
 }
-.chevron{
+.chevron i{
     color:hsl(192 100% 48%);
     display: block;
     font-size: 10px;
@@ -131,3 +157,146 @@ header{
 }
 
 
+/*----Banner----*/
+
+.banner__content{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    letter-spacing: -0.03em;
+}
+.linkedin, .twitter, .pinterest, .intargram{
+    border-radius: 50px;
+    border: 1px solid #F3F3F3;
+}
+.banner__contact>div i{
+    color: #081A39;
+
+}
+.scroll__content{  
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.515em;
+    color: #081A39;
+    opacity: 0.4;
+}
+
+
+/*----Count down----*/
+
+.cd__container{
+    background-color: #fff;
+    box-shadow: 0px 34px 35px rgba(160, 171, 191, 0.21);
+    border-radius: 20px;
+}
+.cd__container>p{
+    color: #030B15;
+    letter-spacing: -0.01em;
+    font-size: 26px;
+    margin-bottom: 35px;
+    line-height: 1.88;
+    font-weight: 600;
+}
+.number{
+    font-size: 35px;
+    font-weight: 600;
+    color: #030B15;
+    font-family: Poppins;
+}
+.time span{
+    font-size: 14px;
+    font-family: Outfit;
+    color: #030B15;
+    font-weight: 500;
+    line-height: 1;
+}
+.day{
+    border: solid 7px #56c4f4;
+}
+.hour{
+    border: solid 7px #f2970f;
+}
+.minute{
+    border: solid 7px #ee4682;
+}
+.second{
+    border: solid 7px #56d175;
+}
+
+
+/*----About----*/
+
+.h1{
+    color: #6f42c1;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+    line-height: 24.5px;
+}
+.about__title{
+    font-size: 45px;
+    color: #030B15;
+    line-height: 1.26;
+    letter-spacing: -0.01em;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.h2{
+    color: #727885;
+    font-size: 16px;
+    line-height: 1.75;
+}
+.fa-solid{
+    color: #564DCA;
+    margin-right: 10px;
+}
+.about__download a{
+    color: #fff;
+    background: #6610f2;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-decoration: none;
+}
+.about__download a:hover{
+    background-color: #00C4F4;
+}
+
+
+/*----Why chose----*/
+
+.why__title{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.why__maintitle{
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+.why__content a{
+    text-decoration: none;
+}
+.why__content p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 1.27;
+    letter-spacing: 0.8px;
+}
+.why__content p:hover{
+    color: #00C4F4;
+}
+.why__content span{
+    font-size: 15px;
+    line-height: 22px;
+    color: #A4B4C3;
+}
