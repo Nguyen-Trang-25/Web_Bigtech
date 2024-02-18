@@ -102,19 +102,26 @@ header{
 .header__action>p{
     background-color: #464858;
 }
-.buy>p{
+.buy a{
+    text-decoration: none;
+}
+.buy p {
+    color: #fff;
     background-color: #00c4f4;
     border-radius: 5px;
     font-weight: 700;
     font-size: 14px;
 }
-.buy>p:hover{
+.buy p:hover{
     background-color: #6f42c1;
 }
 
 
 /*--mobile menu--*/
 
+.mobile__menu__icon i{
+    color: #fff;
+}
 .mobile__menu{
     background-color: hsl(213 65% 12%);
     font-size: 14px;

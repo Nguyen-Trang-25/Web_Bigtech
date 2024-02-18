@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Outfit;
-    transition-duration: 0.3s;
-    transition-delay: 0.3s;
+    transition-duration: 0.2s;
 }
 
 
@@ -20,6 +19,7 @@
     justify-content: center;
     text-align: center;
     opacity: 0;
+    display: none;
 }
 .spiner{
     display: block;
@@ -128,7 +128,7 @@ header{
     height: 28px;
     width: 2px;
 }
-.buy>p{
+.buy p{
     padding: 20px 48px;
 }
 
