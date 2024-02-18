@@ -399,10 +399,11 @@ ul>.home__baby, ul>.blog__baby{
 }
 .about__list>ul li{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
-.about__download a{
+.about__download p{
     width: 275px;
+    margin-top: 45px;
     padding: 25px 42px;
 }
 .img__one{
@@ -488,6 +489,8 @@ ul>.home__baby, ul>.blog__baby{
 .why__content{
     display: flex;
     text-align: start;
+    justify-content: center;
+    align-items: center;
 }
 .why__content>div{
     width: 25%; 

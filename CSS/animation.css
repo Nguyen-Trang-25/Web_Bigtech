@@ -27,9 +27,6 @@
         transform: translateY(0);
     }
 }
-.banner__content{
-    animation: banner__content 2s 0s;
-}
 
 @keyframes img__one {
     0%{
@@ -41,12 +38,6 @@
         transform: translate(50px);
     }
 }
-.img__one{
-    animation-name: img__one;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
 
 @keyframes img__two {
     0%{
@@ -55,9 +46,6 @@
     100%{
         transform: rotate(360deg);
     }
-}
-.img__two{
-    animation: img__two 10s infinite linear;
 }
 
 @keyframes about__img {
@@ -70,9 +58,6 @@
         transform: translate(0);
     }
 }
-.about__img{
-    animation: about__img 2s 0.2s;
-}
 
 @keyframes information {
     from{
@@ -84,9 +69,6 @@
         transform: translate(0);
     }
 }
-.information{
-    animation: information 2s 0.2s;
-}
 
 @keyframes mobile {
     from{
@@ -97,10 +79,6 @@
         transform: translate(0);
         opacity: 1;
     }   
-}
-
-.mobile{
-    animation: mobile 1s 0.2s;
 }
 
 @keyframes lifetime {
@@ -116,9 +94,7 @@
         opacity: 1;
     }   
 }
-.lifetime{
-    animation: lifetime 1.5s 0.2s;
-}
+
 @keyframes protect {
     0%{
         opacity: 0;
@@ -132,9 +108,7 @@
         opacity: 1;
     }   
 }
-.protect{
-    animation: protect 2s 0.2s;
-}
+
 @keyframes sercurity {
     0%{
         opacity: 0;
@@ -147,7 +121,4 @@
         transform: translate(0);
         opacity: 1;
     }   
-}
-.sercurity{
-    animation: sercurity 2.5s 0.2s;
 }

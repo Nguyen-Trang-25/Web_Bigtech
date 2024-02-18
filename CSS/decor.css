@@ -173,6 +173,7 @@ header{
     font-family: Poppins;
     letter-spacing: 1px;
     letter-spacing: -0.03em;
+    animation: banner__content 2s 0s;
 }
 .linkedin, .twitter, .pinterest, .intargram{
     border-radius: 50px;
@@ -235,6 +236,12 @@ header{
 
 /*----About----*/
 
+.about__img{
+    animation: about__img 2s 0.2s;
+}
+.information{
+    animation: information 2s 0.2s;
+}
 .h1{
     color: #6f42c1;
     font-size: 14px;
@@ -260,17 +267,29 @@ header{
     margin-right: 10px;
 }
 .about__download a{
+    text-decoration: none;
+}
+.about__download p{
     color: #fff;
-    background: #6610f2;
+    background: #564DCA;
     border-radius: 5px;
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: .5px;
-    text-decoration: none;
+    letter-spacing: 0.5px;
 }
-.about__download a:hover{
+.about__download p:hover{
     background-color: #00C4F4;
 }
+.img__one{
+    animation-name: img__one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.img__two{
+    animation: img__two 10s infinite linear;
+}
+
 
 
 /*----Why chose----*/
@@ -306,4 +325,16 @@ header{
     font-size: 15px;
     line-height: 22px;
     color: #A4B4C3;
+}
+.mobile{
+    animation: mobile 1s 0.2s;
+}
+.lifetime{
+    animation: lifetime 1.5s 0.2s;
+}
+.protect{
+    animation: protect 2s 0.2s;
+}
+.sercurity{
+    animation: sercurity 2.5s 0.2s;
 }
