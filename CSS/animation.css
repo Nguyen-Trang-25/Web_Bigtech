@@ -28,7 +28,7 @@
     }
 }
 .banner__content{
-    animation: banner__content 2s 0.6s;
+    animation: banner__content 2s 0s;
 }
 
 @keyframes img__one {
