@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Outfit;
     transition-duration: 0.2s;
+    scroll-behavior: smooth;
 }
 
 
@@ -18,8 +19,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    opacity: 0;
-    display: none;
 }
 .spiner{
     display: block;
@@ -506,4 +505,36 @@ ul>.home__baby, ul>.blog__baby{
 .why__content span{
     display: block;
     width: 77%;
+}
+
+
+/*----Count area----*/
+
+
+.counter__container{
+    position: relative;
+    display: flex;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    max-width: 1170px;
+    background: #FFFFFF;
+    box-shadow: 0px 34px 35px rgba(160, 171, 191, 0.21);
+    border-radius: 20px;
+    padding: 64px 75px 33px;
+    z-index: 2;
+}
+.counter__container >div{
+    display: flex;
+    margin-bottom: 30px;
+    width: 33.333333%;
+    text-align: start;
+    align-items: center;
+}
+.counter__container img{
+    margin-right: 30px;
 }

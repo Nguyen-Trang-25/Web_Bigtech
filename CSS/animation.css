@@ -1,9 +1,10 @@
 @keyframes preloading {
-    from{
+    0%{
         opacity: 1;
     }
-    to{
-
+    100%{
+        opacity: 0;
+        display: none;
     }
 }
 

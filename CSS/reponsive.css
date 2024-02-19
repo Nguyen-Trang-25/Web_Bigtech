@@ -173,13 +173,21 @@
     /*----Why chose----*/
 
     .why__container{
-        max-width: 940px;
+        max-width: 960px;
     }
     .why__maintitle{
         font-size: 36px;
     }
     .why__content p, .why__content span{
         width: 90%;
+    }
+
+
+    /*----Count are----*/
+
+    .counter__container{
+        max-width: 930px;
+        padding: 64px 45px 33px;
     }
 }
 
@@ -222,7 +230,7 @@
         height: 400px;
     }
     .banner__container{
-        max-width: 700px;
+        max-width: 720px;
         margin-top: 40px;
     }
     .banner__content{
@@ -250,7 +258,7 @@
 
     .about__container{
         flex-direction: column;
-        max-width: 700px;
+        max-width: 720px;
     }
     .about__img{
         width: 100%;
@@ -285,10 +293,25 @@
         width: 100%;
     }
     .why__container{
-        max-width: 700px;
+        max-width: 720px;
     }
     .mobile, .lifetime{
         margin-bottom: 60px;
+    }
+    
+
+    /*----Count are----*/
+
+    .counter__container{
+        max-width: 690px;
+        padding: 50px 45px 20px;
+    }
+    .counter__container >div{
+        width: 50%;
+    }
+    .counter__container .active3{
+     margin-left: auto;
+     margin-right: auto;
     }
 }
 
@@ -379,6 +402,10 @@
     .why__content p, .why__content span{
         width: 95%;
 
+    }
+    .counter__container {
+        max-width: 510px;
+        padding: 50px 30px 20px;;
     }
 }
 
