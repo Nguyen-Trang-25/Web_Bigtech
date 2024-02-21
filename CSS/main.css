@@ -147,25 +147,14 @@ header{
     z-index: 999;
     transform: scale(0,1);
     transform-origin: right center;
-    transition-duration: s;
     display: none;
+    animation: open__menu 1s;
 }
 #open__menu{
     display: none;
 }
 .mobile__menu__icon label i{
     cursor: pointer;
-}
-#open__menu:checked~.mobile__menu,
-#open__menu:checked~.mobile__bgr{
-    display: unset;
-    transform: scale(1,1);
-}
-.mobile__menu>#close__menu:checked .mobile__menu,
-.mobile__menu>#close__menu:checked .mobile__bgr
-{
-    display: none;
-    transform: scale(0,1);
 }
 .mobile__bgr{
     width: 100%;
@@ -174,10 +163,7 @@ header{
     top: 0;
     right: 0;
     z-index: 998;
-    transform: scale(0,1);
-    transform-origin: right center;
-    transition-duration: 0.3s;
-    opacity: 0;
+    /* opacity: 0; */
     display: none;
 }
 .mobile__logo{
@@ -192,9 +178,9 @@ header{
     right: 25px;
     z-index: 1000;
 }
-.mobile__bgr:checked{
+/* .mobile__bgr:checked{
         background-color: none;
-}
+} */
 .menu__baby>li{
     padding: 12px 15px 12px 25px;
 }

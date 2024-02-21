@@ -129,7 +129,7 @@ header{
 }
 .mobile__bgr{
     background-color: #0b1d33;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 .close i{
     font-size: 20px;
@@ -162,6 +162,16 @@ header{
 .fb:hover, .twt:hover, .in:hover, .lkn:hover, .ytb:hover{
     background-color: #00c4f4;
     -webkit-border-radius: 3px;
+}
+#open__menu:checked~.mobile__menu{
+    display: unset;
+    animation: open__menu 0.6s;
+    animation-fill-mode: forwards;
+}
+#open__menu:checked~label .mobile__bgr{
+    animation: unhind 0.6s;
+    display: unset;
+    animation-fill-mode: forwards;
 }
 
 

@@ -17,6 +17,24 @@
     }
 }
 
+@keyframes open__menu {
+    from{
+
+    }
+    to{
+        display: block;
+        transform: scale(1,1);
+    }
+}
+@keyframes unhind {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
 
 @keyframes banner__content {
     from{
