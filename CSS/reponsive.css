@@ -1,6 +1,12 @@
 /* Extra large devices (large desktops, 1800px and up) */
-@media screen and (min-width: 1800.99px ) {
-    
+@media screen and (min-width: 1800px ) {
+    .roadmap__container{
+        max-width: 1700px;
+        
+    }
+    .top__map, .bottom__map{
+        margin-left: 130px;
+    }
 }
 
 /* Extra large devices (large desktops, 1500px and up) */
@@ -88,6 +94,17 @@
     }
     .why__content p{
         letter-spacing: -0.01em;
+    }
+
+
+    /*----Roadmap----*/
+
+    .top__map, .bottom__map{
+        margin-left: 30px;
+        margin-right: -32px;
+    }
+    .map__title{
+        font-size: 40px;
     }
 }
 
@@ -188,6 +205,37 @@
     .counter__container{
         max-width: 930px;
         padding: 64px 45px 33px;
+    }
+    
+
+    /*----Roadmap----*/
+
+    .top__map, .bottom__map{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .map__title{
+        font-size: 36px;
+    }
+
+
+    /*----Leader team----*/
+
+    .team__container{
+        max-width: 960px;
+    }
+    .team__title{
+        max-width: 260px;
+    }
+    .team__title span{
+        font-size: 34px;
+    }
+    .william .name{
+        display: flex;
+        justify-content: center;
+        max-width: 200px;
+        text-align: center;
+        line-height: 1.2;
     }
 }
 
@@ -313,6 +361,84 @@
      margin-left: auto;
      margin-right: auto;
     }
+        
+
+    /*----Roadmap----*/
+
+    .roadmap__container{
+        max-width: 720px;
+    }
+    .top__map, .bottom__map{
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        margin-top: 0;
+        row-gap: 40px;
+    }
+    .boxmap, .boxmap__bottom{
+        margin-bottom: 40px;
+    }
+    .boxmap::before,.boxmap__bottom::before{
+        content: unset;
+    }
+    .midq4, .midq1, .midq2, .endq2{
+        width: calc((100% - 30px) / 2);
+    }
+    .midq4.y2021, .midq2.y2023, .midq4.y2024, .midq2.y2026{
+        margin-right: 30px;
+    }
+    .map__title{
+        font-size: 40px;
+        width: 80%;
+    }
+    .stage{
+        margin-bottom: 10px;
+    }
+    .blue .map__content, .orange .map__content,
+    .navy .map__content, .pink .map__content{
+        border-left: unset;
+        position: unset;
+    }
+    .main__map .dot{
+        display: none;
+    }
+    .main__map .map__content{
+        padding: 0;
+        margin-left: 0;
+        max-width: unset;
+    }
+    .map__content>p{
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+
+    /*---Team leader----*/
+    .team__container{
+        max-width: 720px;
+    }
+    .leader__box{
+        
+        row-gap: 45px;
+        align-items: center;
+    }
+    .leader__box>div{
+        width: 33.333333%;
+    }
+    .robert{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name{
+        margin-bottom: 8px;
+        font-size: 19px;
+    }
+    .william .name{
+        max-width: none;
+    }
+    .team__title span{
+        font-size: 40px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -405,7 +531,41 @@
     }
     .counter__container {
         max-width: 510px;
-        padding: 50px 30px 20px;;
+        padding: 50px 30px 20px;
+    }
+
+
+    /*----Roadmap----*/
+
+    .map__title{
+        font-size: 36px;
+        width: 100%;
+    }
+    .midq4, .midq1, .midq2, .endq2{
+        padding: 0 10px;
+    }
+
+
+    /*---Team leader----*/
+    .team__container{
+        max-width: 540px;
+    }
+    .leader__box{
+        row-gap: 45px;
+        align-items: center;
+    }
+    .leader__box>div{
+        width: 50%;
+    }
+    .robert{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .team__title{
+        max-width: 400px;
+    }
+    .team__title span{
+        font-size: 28px;
     }
 }
 
@@ -496,5 +656,68 @@
         margin-right: auto;
         width: 270px;
     }
+    
 
+    /*----Count are----*/
+
+    .counter__container{
+        max-width: 525px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 50px 30px 20px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .counter__container .active3{
+        margin-left: unset;
+        margin-right: unset;
+    }
+    .counter__container p{
+        font-size: 34px;
+    }
+    .counter__container .follow{
+        margin-left: -10px;
+    }
+
+
+    /*----Roadmap----*/
+
+    .map__title{
+        font-size: 28px;
+        width: 100%;
+    }
+    .midq4, .midq1, .midq2, .endq2{
+        width: 100%;
+    }
+    .midq4.y2021, .midq2.y2023, .midq4.y2024, .midq2.y2026 {
+        margin-right: 0px;
+    }
+    
+
+    /*----Team leader----*/
+
+    .leader__box>div{
+        width: 100%;
+    }
+
+}
+
+/* Small devices (landscape phones, 304px and down) */
+
+@media screen and (max-width: 339.99px){
+        
+
+    /*----Counter are----*/
+
+    .counter__container{
+        align-items: flex-start;
+    }
+
+
+    /*----Team leader---*/
+
+
+    .team__title{
+        max-width: 220px;
+    }
 }

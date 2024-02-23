@@ -169,7 +169,7 @@ header{
     animation-fill-mode: forwards;
 }
 #open__menu:checked~label .mobile__bgr{
-    animation: unhind 0.6s;
+    animation: unhide 0.6s;
     display: unset;
     animation-fill-mode: forwards;
 }
@@ -329,7 +329,7 @@ header{
     line-height: 1.27;
     letter-spacing: 0.8px;
 }
-.why__content p:hover{
+.why__content a:hover p{
     color: #00C4F4;
 }
 .why__content span{
@@ -351,8 +351,17 @@ header{
 }
 
 
-/*----Count area----*/
+/*----Counter area----*/
 
+.counter__area{
+
+}
+.counter__container{
+    background: #FFFFFF;
+    box-shadow: 0px 34px 35px rgba(160, 171, 191, 0.21);
+    border-radius: 20px;
+    padding: 64px 75px 33px;
+}
 .counter__container p{
     color: #030B15;
     letter-spacing: -0.02em;
@@ -365,4 +374,134 @@ header{
     color: #646580;
     font-size: 16px;
     line-height: 1.6;
+}
+
+
+/*----Road map----*/
+
+.roadmap__container>u{
+    color: #564DCA;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.map__title{
+    font-size: 45px;
+    color: #030B15;
+    line-height: 1.26;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.stage{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.blue .stage{
+    color: #00C4F4;
+}
+.orange .stage{
+    color: #FF9700;
+}
+.navy .stage{
+    color: #007FF4;
+}
+.pink .stage{
+    color: #FF4581;
+}
+.map__content>p{
+    color: #030B15;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.62;
+    font-family: Poppins;
+}
+.map__content>span{
+    color: #727885;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.75;
+}
+
+
+/*---Team leader----*/
+
+.face img{
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+.leader__box>div:hover img{
+    filter: grayscale(0);
+}
+.team__title{
+    line-height: 1.2;
+}
+.team__title>h5{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+}
+.leader__contact i{
+    color: #fff;
+}
+.the__leaderghip{
+    font-size: 42px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.team{
+    color: #00C4F4;
+    font-size: 42px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.job{
+    font-size: 16px;
+    color: #A4B4C3;
+    line-height: 1.75;
+}
+.leader__contact i{
+    font-size: 13px;
+    line-height: 13px;
+}
+.leader__ytb:hover i, .leader__twt:hover i,
+.leader__fb:hover i, .leader__in:hover i{
+    color: #00C4F4;
+}
+.william,.pena,.coper,.robert{
+    animation-delay: 5s;
+    animation-timing-function: ease-in-out;
+}
+.william{
+    animation: mobile 1s 0.2s;
+}
+.pena{
+    animation: lifetime 1.5s 0.2s;
+}
+.copper{
+    animation: protect 2s 0.2s;
+}
+.robert{
+    animation: sercurity 2.5s 0.2s;
+}
+
+
+/*----Download----*/
+
+.dl__title{
+    font-size: 45px;
+    color: #030B15;
+    line-height: 1.26;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    font-family: Poppins;
 }
