@@ -49,9 +49,7 @@
 
 @keyframes img__one {
     0%{
-        position: absolute;
-        bottom: 100px;
-        left: 140px;
+        
     }
     50%{
         transform: translate(50px);
@@ -140,4 +138,19 @@
         transform: translate(0);
         opacity: 1;
     }   
+}
+
+
+@keyframes open__answer {
+    from{
+        background-color: #fff;
+    }
+    to{
+        height: auto;
+        display: block;
+        transform: scale(1);
+        padding: 0 40px 45px 55px;
+        background-color: #fff;
+        border-bottom: solid 4px #00C4F4;
+    }
 }

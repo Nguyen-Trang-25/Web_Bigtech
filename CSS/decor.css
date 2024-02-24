@@ -254,7 +254,7 @@ header{
     animation: information 2s 0.2s;
 }
 .h1{
-    color: #6f42c1;
+    color: #564dca;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.28px;
@@ -504,4 +504,65 @@ header{
     letter-spacing: -0.01em;
     font-weight: 600;
     font-family: Poppins;
+}
+.download__img{
+    opacity: 0;
+    animation: information 2s 5s;
+    animation-fill-mode: forwards;
+}
+.dl__information{
+    opacity: 0;
+    animation: about__img 2s 5s;
+    animation-fill-mode: forwards;
+}
+
+
+/*----Faq----*/
+
+.faq__title{
+    font-size: 45px;
+    color: #030B15;
+    line-height: 1.26;
+    font-weight: 600;
+    font-family: Poppins;
+    letter-spacing: -0.01em;
+}
+.faq__question>div{
+    animation-duration: 0.5s;
+}
+.faq__question label{
+    background-color: #fff;
+    color: hsl(210 11% 15%);
+    text-shadow: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 1.25;
+    font-family: Poppins;
+    cursor: pointer;
+}
+.faq__question label i{
+    color: #132047;
+    opacity: .3;
+}
+.answer{
+    height: 0;
+    color: #727885;
+    font-size: 18px;
+    line-height: 1.55;
+    transform: scale(1,0);
+    transform-origin: top center;
+    padding: 0 40px 0px 55px;
+}
+.faq__question input:checked~label i{
+    transform: rotate(-180deg);
+    opacity: 1;
+    transition: 0.5s;
+}
+.faq__question input:checked~.answer{
+    animation: open__answer  0.5s ease;
+    animation-fill-mode: forwards;
+}
+.faq__question input:checked~label{
+    border-radius: 0;
 }

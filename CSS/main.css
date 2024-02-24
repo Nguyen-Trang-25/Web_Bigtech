@@ -861,34 +861,104 @@ ul>.home__baby, ul>.blog__baby{
 .download__container{
     display: flex;
     max-width: 1200px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     justify-content: center;
 }
 .download__img{
+    padding: 0 15px;
     width: 58.33333333%;
     text-align: center;
 }
 .dl__information{
     width: 41.66666667%;
+    padding: 0 15px;
 }
-.h1{
+.download__container .h1{
     margin-bottom: 18px;
 }
 .dl__title{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-.h2{
-    margin-bottom: 30px;
+.download__container .h2{
+    margin-bottom: 40px;
 }
 .dl__list ul{
     display: flex;
     column-gap: 20px;
-    align-items: center;
+    align-items: flex-end;
 }
 .dl__list>ul li{
     display: block;
 }
 
+
+/*----Faq----*/
+
+#faq{
+    background: #F3F6FC;
+    padding: 120px 0 130px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.faq__bgr{
+    position: absolute;
+    bottom: 10%;
+    z-index: -1;
+}
+.faq__container{
+    position: relative;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq__title{
+    margin-bottom: 60px;
+}
+.faq__question{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: start;
+}
+#open__answer1,#open__answer2,#open__answer3,
+#open__answer4,#open__answer5{
+    display: none;
+}
+.faq__question>div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.faq__question label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 100px 37px 55px;
+    border-radius: 100px;
+}
+.faq__img1{
+    position: absolute;
+    bottom: -60px;
+    left: -180px;
+}
+.faq__img2{
+    position: absolute;
+    top: 30px;
+    right: -60px;
+}

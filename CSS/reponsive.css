@@ -101,9 +101,16 @@
 
     .top__map, .bottom__map{
         margin-left: 30px;
-        margin-right: -32px;
+        margin-right: 0px;
     }
     .map__title{
+        font-size: 40px;
+    }
+
+
+    /*----Download----*/
+    
+    .dl__title{
         font-size: 40px;
     }
 }
@@ -217,6 +224,9 @@
     .map__title{
         font-size: 36px;
     }
+    .endq2 .map__content{
+        max-width: unset;
+    }
 
 
     /*----Leader team----*/
@@ -236,6 +246,25 @@
         max-width: 200px;
         text-align: center;
         line-height: 1.2;
+    }
+
+
+    /*----Download---*/
+
+    .download__container{
+        max-width: 960px;
+    }
+    .dl__information{
+        width: 50%;
+    }
+    .download__img{
+        width: 50%;
+    }
+    .dl__title{
+        font-size: 36px;
+    }
+    .download__container .h2{
+        width: 100%;
     }
 }
 
@@ -439,6 +468,32 @@
     .team__title span{
         font-size: 40px;
     }
+
+
+    /*----Download---*/
+
+    .download__container{
+        max-width: 720px;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .dl__information{
+        order: 2;
+        max-width: 100%;
+        width: unset;
+    }
+    .download__img{
+        order: 1;
+        max-width: 100%;
+        width: unset;
+    }
+    .dl__title{
+        font-size: 40px;
+        /* margin-bottom: 20px; */
+    }
+    .dl__list ul li img{
+        max-width: 100%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -567,6 +622,17 @@
     .team__title span{
         font-size: 28px;
     }
+    
+
+    /*----Download---*/
+
+    .download__container{
+        max-width: 540px;
+    }
+    .dl__title{
+        font-size: 36px;
+        /* margin-bottom: 20px; */
+    }
 }
 
 /* Small devices (landscape phones, 576px and down) */
@@ -622,6 +688,9 @@
     
     /*----About---*/
     
+    .about__container{
+        overflow: hidden;
+    }
     .about__title{
         font-size: 28px;
     }
@@ -699,6 +768,26 @@
     .leader__box>div{
         width: 100%;
     }
+       
+
+    /*----Download---*/
+
+    .download__container{
+        overflow: hidden;
+    }
+    .dl__title{
+        font-size: 28px;
+        /* margin-bottom: 20px; */
+    }
+    .dl__information{
+        max-width: 100%;
+        width: unset;
+    }
+    .download__img>img{
+        max-width: 100%;
+        width: unset;
+    }
+
 
 }
 
