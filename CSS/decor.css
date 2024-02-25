@@ -527,6 +527,11 @@ header{
     font-family: Poppins;
     letter-spacing: -0.01em;
 }
+.faq__question{
+    opacity: 0;
+    animation: mobile 2s 8s ease-in-out;
+    animation-fill-mode: forwards;
+}
 .faq__question>div{
     animation-duration: 0.5s;
 }
@@ -546,13 +551,11 @@ header{
     opacity: .3;
 }
 .answer{
-    height: 0;
     color: #727885;
     font-size: 18px;
     line-height: 1.55;
     transform: scale(1,0);
     transform-origin: top center;
-    padding: 0 40px 0px 55px;
 }
 .faq__question input:checked~label i{
     transform: rotate(-180deg);
@@ -565,4 +568,61 @@ header{
 }
 .faq__question input:checked~label{
     border-radius: 0;
+}
+
+
+/*----Contact----*/
+
+.contact__title{
+    font-size: 50px;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.contact__content>div{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(246, 246, 246, 0.06);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    font-size: 15px;
+    line-height: 146.49%;
+}
+.massage>p{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    line-height: 2;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.user__name,.user__mail,textarea{
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(246, 246, 246, 0.06);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    width: 100%;
+    letter-spacing: -0.02em;
+    color: #030B15;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 17px 22px;
+    line-height: 1.5;
+}
+.user__name:focus,.user__mail:focus,textarea:focus{
+    background: #fff;
+    border: 1px solid #fff;
+}
+.send{
+    border-radius: 5px;
+    background-color: #00C4F4;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    border: none;
+    color: #FFF;
+}
+.send:hover{
+    background-color: #564DCA;
 }

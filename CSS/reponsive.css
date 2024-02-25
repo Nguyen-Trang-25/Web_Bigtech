@@ -113,6 +113,18 @@
     .dl__title{
         font-size: 40px;
     }
+
+    
+    /*----Faq----*/
+
+    .faq__img1{
+        bottom: -160px;
+        left: -150px;
+    }
+    .faq__img2{
+        top: 0px;
+        right: 25px;
+    }
 }
 
 
@@ -265,6 +277,23 @@
     }
     .download__container .h2{
         width: 100%;
+    }
+
+
+    /*----Faq----*/
+
+    .faq__container{
+        max-width: 960px;
+    }
+    .bgr__img{
+        max-width: 960px;
+    }
+    .faq__title{
+        font-size: 36px;
+        letter-spacing: -0.01em;    
+    }
+    .faq__img1{
+        left: -80px;
     }
 }
 
@@ -494,6 +523,38 @@
     .dl__list ul li img{
         max-width: 100%;
     }
+    
+
+    /*----Faq----*/
+
+    .faq__container{
+        max-width: 720px;
+    }
+    .bgr__img{
+        max-width: 720px;
+    }
+    .faq__title{
+        font-size: 40px;
+        letter-spacing: -0.01em;    
+    }
+    .answer{
+        
+    }
+    .faq__question input:checked~.answer{
+        animation: open__answer_rp  0.5s ease;
+        animation-fill-mode: forwards;
+    }
+    .faq__question label{
+        padding: 37px 40px 37px 30px;
+    }
+    .faq__img1.img__one{
+        display: unset;
+        left: 30px;
+        bottom: -180px;
+    }
+    .question label{
+        font-size: 22px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -632,6 +693,31 @@
     .dl__title{
         font-size: 36px;
         /* margin-bottom: 20px; */
+    }
+    
+
+    /*----Faq----*/
+
+    .faq__container{
+        max-width: 540px;
+    }
+    .faq__title{
+        font-size: 36px;
+    }
+    .question label{
+        font-size: 18px;
+    }
+    .faq__question label{
+        padding: 25px 15px 25px 25px;
+    }
+    .bgr__img{
+        display: none;
+    }
+    .faq__img1.img__one{
+        display: none;
+    }
+    .faq__img2.img__two{
+        display: none;
     }
 }
 
@@ -787,7 +873,20 @@
         max-width: 100%;
         width: unset;
     }
+    
 
+    /*----Faq----*/
+
+    .faq__container{
+        max-width: 540px;
+    }
+    .faq__title{
+        font-size: 28px;
+    }
+    .question label{
+        font-size: 18px;
+        align-items: flex-start;
+    }
 
 }
 
