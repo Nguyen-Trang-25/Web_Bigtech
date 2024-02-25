@@ -125,6 +125,25 @@
         top: 0px;
         right: 25px;
     }
+
+
+    /*----Contact----*/
+
+    .send{
+        font-size: 13px;
+    }
+
+
+    /*----New letter----*/
+
+    .subscribe{
+        font-size: 13px;
+    }
+
+
+    /*----Footer----*/
+
+
 }
 
 
@@ -294,6 +313,39 @@
     }
     .faq__img1{
         left: -80px;
+    }
+
+
+    /*----Contact----*/
+    
+    .container{
+        max-width: 960px;
+    }
+    .contact__box{
+        padding: 0;
+    }
+    .contact__content>div{
+        width: 82%;
+    }
+
+
+    /*----New letter*/
+
+    .letter__box{
+        padding: 50px 30px;
+    }
+    .letter__title{
+        font-size: 28px;
+    }
+
+
+    /*----Footer----*/
+
+    .footer__top,.footer__bottom{
+        padding: 70px 30px 65px;
+    }
+    .footer__bottom{
+        padding: 40px 30px;
     }
 }
 
@@ -555,6 +607,69 @@
     .question label{
         font-size: 22px;
     }
+
+
+    /*----Contact----*/
+
+    .container{
+        max-width: 720px;
+    }
+    .contact__box{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .contact__title{
+        font-size: 38px;
+    }
+    .get__touch{
+        width: 100%;
+    }
+    .contact__content{
+        width: 100%;
+    }
+    .massage{
+        width: 100%;
+        padding: 0;
+        
+    }
+    .contact__content>div{
+        width: 100%;
+    }
+    
+
+    /*----New letter*/
+
+    .letter__box{
+        padding: 45px 30px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .letter__title,.letter__form{
+        width: 100%;
+    }
+    .letter__form{
+        margin-top: 20px;
+    }
+    
+
+    /*----Footer----*/
+
+    .footer__top,.footer__bottom{
+        padding: 55px 0 50px;
+    }
+    .footer__menu{
+        column-gap: 40px;
+    }
+    .scroll__top{
+        display: none;
+    }
+    .footer__bottom{
+        padding: 20px 0;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -718,6 +833,77 @@
     }
     .faq__img2.img__two{
         display: none;
+    }
+
+
+    /*----Contact----*/
+
+    .container{
+        max-width: 540px;
+    }
+    .contact__title{
+        font-size: 32px;
+    }
+    .contact__content>div{
+        padding: 22px 30px;
+    }
+    .massage>p{
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .send{
+        padding: 20px 25px;
+    }
+
+
+    /*----New letter----*/
+
+    .letter__box{
+        padding: 30px 35px;
+    }
+    .letter__title{
+        font-size: 24px;
+    }
+    .letter__form{
+        display: block;
+    }
+    .address__email{
+        padding: 26px 20px 26px 20px;
+    }
+    .subscribe{
+        position: unset;
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+        
+
+    /*----Footer----*/
+
+    .footer__top{
+        padding: 40px 0 30px;
+        flex-direction: column;
+        row-gap: 22px;
+    }
+    .footer__menu{
+        width: 100%;
+        column-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+    .footer__menu>a{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        row-gap: 20px;
+    }
+    .footer__contact{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -888,6 +1074,25 @@
         align-items: flex-start;
     }
 
+
+    /*----Contact----*/
+
+    .container{
+        max-width: 540px;
+    }
+    .contact__title{
+        font-size: 32px;
+    }
+    .contact__content>div{
+        padding: 20px 20px;
+    }
+    
+
+    /*----New letter----*/
+
+    .letter__box{
+        padding: 30px 25px;
+    }
 }
 
 /* Small devices (landscape phones, 304px and down) */
@@ -909,3 +1114,4 @@
         max-width: 220px;
     }
 }
+
