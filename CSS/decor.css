@@ -137,22 +137,31 @@ header{
     background-color: #0b1d33;
     /* opacity: 0.8; */
 }
+.menu__box a{
+    text-decoration: none;
+    color: #fff;
+}
 .close i{
     font-size: 20px;
     color: #00c4f4;
 }
 .menu__baby li{
     list-style: none;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    line-height: 24px;
+    background-color: #0b1d33;
 }
 .menu__baby>li{
     list-style: none;
     border-top: solid 1px rgb(255 255 255 / 10%);
 }
-.chevron__blog>i, .chevron__home>i{
+.chevron__home__baby,.chevron__blog__baby{
     background-color: #00c4f4;
     font-size: 12px;
     font-weight: 900;
     border-radius: 2px;
+    cursor: pointer;
 }
 .menu__contact{
     border-top: solid 1px rgb(255 255 255 / 10%);
@@ -170,15 +179,41 @@ header{
     -webkit-border-radius: 3px;
 }
 #open__menu:checked~.mobile__menu{
-    display: unset;
-    animation: open__menu 0.6s;
-    animation-fill-mode: forwards;
+    /* display: unset; */
+    transform: scale(1);
+    opacity: 1;
 }
 #open__menu:checked~label .mobile__bgr{
-    animation: unhide 0.6s;
+    /* animation: unhide 0.6s; */
+    opacity: 0.8;
     display: unset;
     animation-fill-mode: forwards;
 }
+.boder__solid{
+    border-bottom: solid 1px rgb(255 255 255 / 10%);
+}
+input#open__list2,input#open__list1{
+    display: none;
+}
+
+input#open__list1:checked~.menu__baby .translate,
+input#open__list1:checked~.translate{
+    /* transform: translateY(0); */
+    transform: scale(1);
+}
+input#open__list1:checked~.menu__baby .translate2,
+input#open__list1:checked~.translate2{
+    transform: translateY(-97.5px);
+}
+input#open__list2:checked~.menu__baby .translate2,
+input#open__list2:checked~.translate2{
+    transform: translateY(-97.5px);
+}
+input#open__list1:checked~.menu__baby .chevron__home__baby,
+input#open__list2:checked~.menu__baby .chevron__blog__baby{
+    transform: rotate(90deg);
+}
+
 
 
 /*----Banner----*/
@@ -279,7 +314,7 @@ header{
     font-size: 16px;
     line-height: 1.75;
 }
-.fa-solid{
+.about__list .fa-solid{
     color: #564DCA;
     margin-right: 10px;
 }
@@ -626,7 +661,6 @@ header{
 }
 .user__name:focus,.user__mail:focus,textarea:focus{
     background: #fff;
-    border: 1px solid #fff;
 }
 .send{
     border-radius: 5px;
@@ -669,6 +703,9 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
+}
+.address__email:focus{
+    border: none;
 }
 .subscribe{
     color: #fff;

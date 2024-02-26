@@ -17,6 +17,7 @@
     }
 }
 
+
 @keyframes open__menu {
     from{
 
@@ -33,6 +34,20 @@
     to{
         opacity: 0.8;
     }
+}
+
+@keyframes open__list {
+    from{
+        transform: scale(1,0);
+        height: 0;
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        height: auto;
+        opacity: 1;
+    }
+    
 }
 
 

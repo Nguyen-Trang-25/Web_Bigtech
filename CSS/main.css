@@ -147,10 +147,12 @@ header{
     width: 300px;
     height: 100%;
     z-index: 999;
+    opacity: 0;
     transform: scale(0,1);
     transform-origin: right center;
-    display: none;
-    animation: open__menu 1s;
+    /* display: none;    */
+    /* animation: open__menu 1s; */
+    transition: 0.7s ease;
 }
 #open__menu{
     display: none;
@@ -183,33 +185,65 @@ header{
 /* .mobile__bgr:checked{
         background-color: none;
 } */
+.menu__box{
+    position: relative;
+}
 .menu__baby>li{
     padding: 12px 15px 12px 25px;
 }
 ul>.home__baby{
-    padding-top: 0;
+    
 }
 ul>.home__baby, ul>.blog__baby{
+    position: relative;
     display: flex;
     flex-direction: column;
-    padding: 4px 15px 4px 25px;
+    justify-content: center;
+    /* align-items: center; */
 }
 .chevron__home, .chevron__blog{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
-.chevron__blog>i, .chevron__home>i{
+.chevron__home__baby,.chevron__blog__baby{
+    position: absolute;
+    top: 8px;
+    right: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 32px;
     height: 32px;
+    transition: 0.5s ease;
 }
-.home__list__baby, .blog__list__baby{
-    display: none;
+.chevron__blog>i, .chevron__home>i{
 }
+li.home__list__baby, li.blog__list__baby{
+    /* transform: scale(1,0);
+    transform-origin: top center;
+    transition: 2s;
+    height: 0;
+    opacity: 0; */
+    font-size: 15px;
+    padding: 0;
+    /* padding-left: 45px; */
+    display: flex;
+    flex-direction: column;
+}
+li.home__list__baby a, li.blog__list__baby a{
+    padding: 12px 15px 12px 45px;
+}
+
+/* .home__list__baby a, .blog__list__baby a{
+    display: block;
+    margin-left: 20px;
+    line-height: 24px;
+    padding: 10px 60px 10px 25px;
+    text-transform: capitalize;
+    border-top: 1px solid rgb(255 255 255 / 10%);
+} */
 .menu__contact>ul{
     display: flex;
     justify-content: space-between;
@@ -223,6 +257,15 @@ ul>.home__baby, ul>.blog__baby{
     align-items: center;
     width: 38px;
     height: 38px;
+}
+
+.menu__baby>li:not(.fixed__home),.menu__contact{
+    transform: translateY(-97.5px);
+    transition: 0.5s;
+}
+.menu__contact,li.translate2.blog__translate{
+    transform: translateY(-195px);
+    background-color: #0b1d33;
 }
 
     
