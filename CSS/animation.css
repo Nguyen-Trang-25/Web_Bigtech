@@ -113,7 +113,7 @@
     }   
 }
 
-@keyframes lifetime {
+/* @keyframes lifetime {
     0%{
         opacity: 0;
     }
@@ -153,7 +153,7 @@
         transform: translate(0);
         opacity: 1;
     }   
-}
+} */
 
 
 @keyframes open__answer {

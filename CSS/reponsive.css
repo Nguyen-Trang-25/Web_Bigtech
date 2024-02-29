@@ -7,6 +7,13 @@
     .top__map, .bottom__map{
         margin-left: 130px;
     }
+    .faq__img1{
+        left: -320px;
+        bottom: -100px;
+    }
+    .faq__img2{
+        right: -220px;
+    }
 }
 
 /* Extra large devices (large desktops, 1500px and up) */
@@ -314,6 +321,7 @@
     .faq__img1{
         left: -80px;
     }
+    .faq__img2{}
 
 
     /*----Contact----*/
@@ -607,6 +615,9 @@
     .question label{
         font-size: 22px;
     }
+    .faq__img2{
+        right: -25px;
+    }
 
 
     /*----Contact----*/
@@ -670,6 +681,14 @@
         row-gap: 10px;
     }
     
+}
+
+
+/*860px and down*/
+@media screen and (max-width: 800px){
+    .faq__img2{
+        right: 0px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
